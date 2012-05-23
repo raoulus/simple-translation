@@ -1,0 +1,5 @@
+<!ENTITY about "About SimpleTranslation">
+<!ENTITY version "Version: 1.0">
+<!ENTITY createdBy "Created By: Raoul Jaeckel - klarshift Berlin">
+<!ENTITY description "Mit nur 2 Klicks zur einfachen und schnellen Übersetzung von Wörtern und Texten. Simple Translation verwendet die Google Translation API und unterstützt jegliche Sprachen.">
+<!ENTITY homepage "Home Page: http://simpletranslation.klarshift.de">

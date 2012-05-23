@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>raoul@klarshift.de</em:id>
+    <em:type>2</em:type>
+    <em:name>Simple Translation</em:name>
+    <em:version>1.0</em:version>
+    <em:creator>Raoul Jaeckel - klarshift Berlin</em:creator>
+    <em:contributor></em:contributor>
+    <em:description>Fast and simple translation. This plugin uses the Google Translation API and supports a veriety of languages. This Add-On is not affiliated with Google Inc. in any way.</em:description>
+    <em:homepageURL>http://simpletranslation.klarshift.de</em:homepageURL>
+    <em:aboutURL>chrome://simpletranslation/content/about.xul</em:aboutURL>
+    <em:optionsURL>chrome://simpletranslation/content/options.xul</em:optionsURL>
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!-- Firefox -->
+        <em:minVersion>3.0</em:minVersion>
+        <em:maxVersion>12.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>

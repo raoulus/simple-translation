@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://simpletranslation/skin/skin-default.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://simpletranslation/locale/overlay.dtd">
+<overlay id="simpletranslation-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:html="http://www.w3.org/1999/xhtml">
+ 	 <script type="application/x-javascript" src="chrome://simpletranslation/content/jquery-1.6.2.min.js" />	
+ 	 <script type="application/x-javascript" src="chrome://simpletranslation/content/simpletranslation.js"/>
+
+  	<stringbundleset id="stringbundleset">
+    	<stringbundle id="simpletranslation-strings" src="chrome://simpletranslation/locale/overlay.properties"/>
+  	</stringbundleset>
+
+  	<popup id="contentAreaContextMenu">
+    	<menuitem id="context-simpletranslation" label="&simpletranslationContext.label;"
+              accesskey="&simpletranslationContext.accesskey;"
+              insertafter="context-stop"
+              oncommand="simpletranslation.translate(event)"/>
+  	</popup>
+
+  	<toolbox id="navigator-toolbox">
+    	<toolbar class="chromeclass-toolbar" toolbarname="&simpletranslationToolbar.name;" customizable="true" id="simpletranslation-toolbar">
+      		<label value="&simpletranslationToolbar.label;"/>
+    	</toolbar>
+  	</toolbox>
+</overlay>

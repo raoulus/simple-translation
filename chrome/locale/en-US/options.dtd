@@ -1,0 +1,8 @@
+<!ENTITY prefwindow.title "Simple Translation Einstellungen">
+<!ENTITY pane1.title "Simple Translation Einstellungen">
+<!ENTITY checkboolpref.label "Eine Boolean Opzion">
+<!ENTITY checkboolpref.accesskey "B">
+<!ENTITY intpref.label "Eine Integer Option">
+<!ENTITY intpref.accesskey "I">
+<!ENTITY stringpref.label "Eine String Option">
+<!ENTITY stringpref.accesskey "S">

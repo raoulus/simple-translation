@@ -1,0 +1,8 @@
+<!ENTITY simpletranslation.label "SimpleTranslation">
+<!ENTITY simpletranslationContext.label "Übersetzen mit SimpleTranslation">
+<!ENTITY simpletranslationContext.accesskey "Y">
+<!ENTITY simpletranslationToolbarButton.label "SimpleTranslation Toolbar">
+<!ENTITY simpletranslationToolbarButton.tooltip "SimpleTranslation Toolbar Tooltip">
+<!ENTITY simpletranslationSidebar.label "SimpleTranslation Sidebar">
+<!ENTITY simpletranslationToolbar.name  "SimpleTranslation">
+<!ENTITY simpletranslationToolbar.label "SimpleTranslation Toolbar. You can hide it under View &gt; toolbars &gt; &simpletranslationToolbar.name;">

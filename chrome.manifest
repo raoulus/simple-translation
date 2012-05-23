@@ -1,0 +1,8 @@
+content   simpletranslation                 chrome/content/
+skin      simpletranslation   classic/1.0   chrome/skin/
+locale    simpletranslation   en-US         chrome/locale/en-US/
+locale    simpletranslation   de-DE         chrome/locale/de-DE/
+
+
+overlay   chrome://browser/content/browser.xul   chrome://simpletranslation/content/simpletranslation.xul
+style chrome://global/content/customizeToolbar.xul chrome://simpletranslation/skin/skin-default.css

@@ -1,0 +1,8 @@
+<!ENTITY prefwindow.title "Simple Translation Einstellungen">
+<!ENTITY preferences.title "Simple Translation Einstellungen">
+<!ENTITY googleAPIKey.label "Google-Translate API Key">
+<!ENTITY googleAPIUrl.label "Google-Translate API URL">
+<!ENTITY sourceLanguage.label "Source Language">
+<!ENTITY targetLanguage.label "Target Language">
+
+

@@ -1,0 +1,29 @@
+/* This is just an example.  You shouldn't do this. */
+#simpletranslation-hello
+{
+  color: red ! important;
+}
+#simpletranslation-toolbar-button
+{
+  list-style-image: url("chrome://simpletranslation/skin/toolbar-button.png");
+  -moz-image-region: rect(0px 24px 24px 0px);
+}
+#simpletranslation-toolbar-button:hover
+{
+  -moz-image-region: rect(24px 24px 48px  0px);
+}
+[iconsize="small"] #simpletranslation-toolbar-button
+{
+  -moz-image-region: rect( 0px 40px 16px 24px);
+}
+[iconsize="small"] #simpletranslation-toolbar-button:hover
+{
+  -moz-image-region: rect(24px 40px 40px 24px);
+}
+
+div#simpleTrans {
+	text-align:center;
+	background: #D5D2CB;
+	color: #fff;
+	font-size:16px;	
+}

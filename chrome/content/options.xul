@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<!DOCTYPE prefwindow SYSTEM "chrome://simpletranslation/locale/options.dtd">
+<prefwindow id="simpletranslation-preferences" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" title="&prefwindow.title;">
+  <prefpane id="pane1" label="&preferences.title;">
+    <preferences>
+      <preference id="googleAPIKey" name="extensions.simpletranslation.googleAPIKey" type="string"/> <!-- type="bool|int|string" -->
+      <preference id="googleAPIUrl" name="extensions.simpletranslation.googleAPIUrl" type="string"/>
+      <preference id="sourceLanguage" name="extensions.simpletranslation.sourceLanguage" type="string"/>
+      <preference id="targetLanguage" name="extensions.simpletranslation.targetLanguage" type="string"/> <!-- note that this is only an ASCII string - use unichar for unicode strings -->
+    </preferences>
+    
+    <!-- <checkbox id="checkboolpref" preference="boolpref1" label="&checkboolpref.label;" accesskey="&checkboolpref.accesskey;"/>  -->
+    
+    <label accesskey="" control="googleAPIKey">&googleAPIKey.label;</label>
+    <textbox id="googleAPIKey" preference="googleAPIKey"/>
+    
+    <label accesskey="" control="googleAPIUrl">&googleAPIUrl.label;</label>
+    <textbox id="googleAPIUrl" preference="googleAPIUrl"/>
+    
+    <label accesskey="" control="sourceLanguage">&sourceLanguage.label;</label>
+    <textbox id="sourceLanguage" preference="sourceLanguage"/>
+    
+    <label accesskey="" control="targetLanguage">&targetLanguage.label;</label>
+    <textbox id="targetLanguage" preference="targetLanguage"/>
+    
+  </prefpane>
+</prefwindow>
