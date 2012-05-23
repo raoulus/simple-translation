@@ -12,7 +12,7 @@ Hot to use
 4. Open Add-Ons Tab and go to simple-translation preferences and enter your Google API Key
 5. Get Started! Open the right-click menu on a selected text and the click on the first option "Übersetzen mit SimpleTranslation"
 
-Get a API key
+Get an API key
 ==================
 
 Registered Google users go to https://code.google.com/apis/console/ and activate Translate-Service. See https://developers.google.com/translate/ for more information about the translation API.
