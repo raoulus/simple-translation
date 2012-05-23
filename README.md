@@ -1,18 +1,18 @@
 simple-translation
 ==================
 
-A translation extension for Mozilla Firefox (V. 3 - V 12*). The Google Translate API is used for the translations
+A translation extension for Mozilla Firefox (V. 3 - V 12*) based on Google's Translation API.
 
 Hot to use
 ==================
 
 1. Download and unzip the extension
-2. Place the unzipped folder to Firefox's profile directory, e.g. /Library/Application Support/Firefox/Profiles/~[profileName]/extensions (on mac)
+2. Place the unzipped folder to Firefox's profile directory, e.g. ~/Library/Application Support/Firefox/Profiles/[profileName]/extensions (on mac)
 3. (Re-)Start Firefox
 4. Open Add-Ons Tab and go to simple-translation preferences and enter your Google API Key
 5. Get Started! Open the right-click menu on a selected text and the click on the first option "Übersetzen mit SimpleTranslation"
 
-Get a API key
+Get an API key
 ==================
 
 Registered Google users go to https://code.google.com/apis/console/ and activate Translate-Service. See https://developers.google.com/translate/ for more information about the translation API.
