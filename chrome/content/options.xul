@@ -10,8 +10,6 @@
       <preference id="targetLanguage" name="extensions.simpletranslation.targetLanguage" type="string"/> <!-- note that this is only an ASCII string - use unichar for unicode strings -->
     </preferences>
     
-    <!-- <checkbox id="checkboolpref" preference="boolpref1" label="&checkboolpref.label;" accesskey="&checkboolpref.accesskey;"/>  -->
-    
     <label accesskey="" control="googleAPIKey">&googleAPIKey.label;</label>
     <textbox id="googleAPIKey" preference="googleAPIKey"/>
     
