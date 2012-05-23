@@ -8,7 +8,7 @@
     <em:creator>Raoul Jaeckel - klarshift Berlin</em:creator>
     <em:contributor></em:contributor>
     <em:description>Fast and simple translation. This plugin uses the Google Translation API and supports a veriety of languages. This Add-On is not affiliated with Google Inc. in any way.</em:description>
-    <em:homepageURL>http://simpletranslation.klarshift.de</em:homepageURL>
+    <em:homepageURL>https://github.com/raoulus/simple-translation</em:homepageURL>
     <em:aboutURL>chrome://simpletranslation/content/about.xul</em:aboutURL>
     <em:optionsURL>chrome://simpletranslation/content/options.xul</em:optionsURL>
     <em:targetApplication>
